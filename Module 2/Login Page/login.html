@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f0e5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #52735b;
+        }
+
+        p {
+            text-align: center;
+            color: #666;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            color: #385640;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-top: 7px;
+            box-sizing: border-box;
+            border: 1px solid #b8cbb9;
+            border-radius: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 10px;
+            background-color: #52735b;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #385640;
+        }
+
+        .signup {
+            display: none;
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid #d5dfd4;
+        }
+
+        .message {
+            text-align: center;
+            margin-top: 20px;
+            color: #52735b;
+            font-weight: bold;
+        }
+
+        .decoration {
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="decoration">🌿 🕊️ 🌿</div>
+
+    <h1>Welcome Back</h1>
+
+    <p>Login to continue</p>
+
+    <form onsubmit="login(event)">
+
+        <label>Username</label>
+        <input type="text" id="username" placeholder="Enter your username" required>
+
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+
+        <button type="submit">Sign In</button>
+
+    </form>
+
+    <div id="message" class="message"></div>
+
+    <p>Don't have an account?</p>
+
+    <button onclick="showSignup()">Sign Up</button>
+
+    <div id="signup" class="signup">
+
+        <h2>Create Account</h2>
+
+        <label>Username</label>
+        <input type="text" id="newUsername" placeholder="Create a username">
+
+        <label>Password</label>
+        <input type="password" id="newPassword" placeholder="Create a password">
+
+        <button onclick="signup()">Create Account</button>
+
+    </div>
+
+</div>
+
+
+<script>
+
+    function login(event) {
+
+        event.preventDefault();
+
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+
+        let savedUsername = localStorage.getItem("username");
+        let savedPassword = localStorage.getItem("password");
+
+        if (username == savedUsername && password == savedPassword) {
+
+            document.getElementById("message").innerHTML =
+                "✅ Successfully Verified!";
+
+        } else {
+
+            document.getElementById("message").innerHTML =
+                "❌ Account not found. Please Sign Up.";
+
+        }
+    }
+
+
+    function showSignup() {
+
+        document.getElementById("signup").style.display = "block";
+
+    }
+
+
+    function signup() {
+
+        let newUsername = document.getElementById("newUsername").value;
+        let newPassword = document.getElementById("newPassword").value;
+
+        if (newUsername == "" || newPassword == "") {
+
+            alert("Please enter username and password.");
+
+            return;
+        }
+
+        localStorage.setItem("username", newUsername);
+        localStorage.setItem("password", newPassword);
+
+        alert("Account created successfully!");
+
+        document.getElementById("signup").style.display = "none";
+
+    }
+
+</script>
+
+</body>
+</html>

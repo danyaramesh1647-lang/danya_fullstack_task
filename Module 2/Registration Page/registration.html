@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Georgia, serif;
+            background: #e8f0e5;
+            min-height: 100vh;
+            padding: 25px 15px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 430px;
+            margin: auto;
+            background: #fffdf7;
+            border-radius: 24px;
+            padding: 30px 25px;
+            box-sizing: border-box;
+            box-shadow: 0 8px 25px rgba(60, 80, 50, 0.15);
+        }
+
+        .decoration {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #385640;
+            margin: 5px 0;
+            font-size: 30px;
+        }
+
+        .intro {
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-top: 16px;
+            margin-bottom: 7px;
+            color: #405847;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            padding: 13px;
+            box-sizing: border-box;
+            border: 1px solid #cbd8c8;
+            border-radius: 10px;
+            background: #fafcf8;
+            font-size: 14px;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #6f9678;
+            background: white;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            margin-top: 25px;
+            border: none;
+            border-radius: 10px;
+            background: #52735b;
+            color: white;
+            font-size: 16px;
+            font-family: Georgia, serif;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #3f5f48;
+        }
+
+        #message {
+            display: none;
+            margin-top: 18px;
+            padding: 13px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            color: #8a8a8a;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 400px) {
+
+            .container {
+                padding: 25px 20px;
+            }
+
+            h1 {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="decoration">
+            🌿 🕊️ 🌿
+        </div>
+
+        <h1>Create Your Account</h1>
+
+        <p class="intro">
+            A little step towards something new.
+            Fill in your details to get started.
+        </p>
+
+        <form onsubmit="registerUser(event)">
+
+            <label>Full Name</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label>Email Address</label>
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label>Phone Number</label>
+            <input
+                type="tel"
+                id="phone"
+                placeholder="Enter your phone number"
+                required
+            >
+
+            <label>Date of Birth</label>
+            <input
+                type="date"
+                id="dob"
+                required
+            >
+
+            <label>Password</label>
+            <input
+                type="password"
+                id="password"
+                placeholder="Create a password"
+                required
+            >
+
+            <label>Confirm Password</label>
+            <input
+                type="password"
+                id="confirmPassword"
+                placeholder="Confirm your password"
+                required
+            >
+
+            <button type="submit">
+                Register
+            </button>
+
+        </form>
+
+        <div id="message"></div>
+
+        <p class="footer">
+            🌱 Thank you for joining us
+        </p>
+
+    </div>
+
+
+    <script>
+
+        function registerUser(event) {
+
+            event.preventDefault();
+
+            let password =
+                document.getElementById("password").value;
+
+            let confirmPassword =
+                document.getElementById("confirmPassword").value;
+
+            let message =
+                document.getElementById("message");
+
+
+            if (password !== confirmPassword) {
+
+                message.style.display = "block";
+                message.style.background = "#f6dddd";
+                message.style.color = "#9b4b4b";
+
+                message.innerHTML =
+                    "Passwords do not match.";
+
+            } else {
+
+                message.style.display = "block";
+                message.style.background = "#e1f0df";
+                message.style.color = "#3d6544";
+
+                message.innerHTML =
+                    "Registration successful! 🌿";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
