@@ -28,14 +28,21 @@ A simple HTML-based calendar displaying dates and important occasions.
 🔗 **Live Demo:**  
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Calendar/calendar.html
 
-#### 3. Login Page
+#### 3. Calculator
+
+A simple calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+🔗 **Live Demo:**  
+https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Calculator/calculator.html
+
+#### 4. Login Page
 
 A standalone login page with username and password fields, along with sign-in and sign-up functionality.
 
 🔗 **Live Demo:**  
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Login%20Page/login.html
 
-#### 4. Registration Page
+#### 5. Registration Page
 
 A registration form containing user details such as name, email, phone number, date of birth, and password.
 
@@ -46,7 +53,7 @@ https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Registrat
 
 ### 🌼 Module 3 — JavaScript & ES6
 
-#### 5. Event Management System
+#### 6. Event Management System
 
 A simple event management system that allows users to enter and display event details such as event name, type, date, time, venue, organizer, and description.
 
@@ -55,7 +62,7 @@ The project uses **JavaScript ES6 features** for handling event data and dynamic
 🔗 **Live Demo:**  
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%203/Event%20Management%20System/event_management.html
 
-#### 6. Student Application Form
+#### 7. Student Application Form
 
 A student application form for collecting student details and displaying submitted information.
 
@@ -87,6 +94,9 @@ danya_fullstack_task/
 │   ├── Calendar/
 │   │   └── calendar.html
 │   │
+│   ├── Calculator/
+│   │   └── calculator.html
+│   │
 │   ├── Login Page/
 │   │   └── login.html
 │   │
@@ -112,11 +122,12 @@ Creating structured web pages
 Working with CSS and Bootstrap
 Using JavaScript for interactivity
 Working with JavaScript ES6 features
+Performing basic arithmetic operations using JavaScript
 Dynamically manipulating HTML elements
 Organizing multiple projects using Git and GitHub
 Deploying webpages using GitHub Pages
 🚀 Deployment
 
-All projects in this repository are deployed using GitHub Pages.
+The projects in this repository are deployed using GitHub Pages.
 
 Each project can be accessed through its individual live demo link provided above.

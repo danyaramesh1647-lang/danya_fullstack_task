@@ -1,90 +1,112 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SDLC Using AI</title>
+    <title>AI SDLC Generator</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #E6F2FF;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container{
+            width: 70%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border: 3px solid blue;
+            border-radius: 10px;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        input{
+            width: 80%;
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid blue;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button{
+            padding: 10px 20px;
+            background: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #result{
+            margin-top: 20px;
+            text-align: left;
+            background: #F5F5F5;
+            padding: 15px;
+            border: 2px solid gray;
+            border-radius: 5px;
+        }
+
+        h2{
+            color: green;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Software Development Life Cycle Using AI</h1>
+<div class="container">
 
-    <h2>AI-Based Hospital Management System</h2>
+    <h1>AI SDLC Generator</h1>
 
-    <p>
-        SDLC stands for Software Development Life Cycle.
-        It is a step-by-step process used to develop software.
-        In an AI-based system, AI and data are also included
-        during the development process.
-    </p>
+    <h3>Enter Project Topic</h3>
 
-    <hr>
+    <input type="text" id="topic" placeholder="Example: Hospital Management">
 
-    <h2>Steps of SDLC Using AI</h2>
+    <br>
 
-    <h3>1. Planning</h3>
-    <p>
-        The goal of the project is decided.
-        Here, we plan to develop an AI-based Hospital Management System.
-    </p>
+    <button onclick="generate()">Generate SDLC</button>
 
-    <h3>2. Requirement Analysis</h3>
-    <p>
-        The requirements of the hospital are collected.
-        The system may manage patients, doctors, appointments
-        and medical information.
-    </p>
+    <div id="result"></div>
 
-    <h3>3. Data Collection</h3>
-    <p>
-        Relevant data required for the AI system is collected.
-        The data may include patient records and appointment information.
-    </p>
+</div>
 
-    <h3>4. Data Preparation</h3>
-    <p>
-        The collected data is cleaned and organized
-        so that it can be used by the AI system.
-    </p>
+<script>
+function generate(){
 
-    <h3>5. Design</h3>
-    <p>
-        The structure of the software, database and AI system
-        is designed.
-    </p>
+    var topic = document.getElementById("topic").value;
 
-    <h3>6. Development</h3>
-    <p>
-        The software is developed and the AI model is trained
-        using the prepared data.
-    </p>
+    if(topic==""){
+        document.getElementById("result").innerHTML =
+        "<h2>Please Enter a Topic</h2>";
+        return;
+    }
 
-    <h3>7. Testing</h3>
-    <p>
-        The system and AI model are tested to find errors
-        and check whether the system works correctly.
-    </p>
+    document.getElementById("result").innerHTML =
 
-    <h3>8. Deployment</h3>
-    <p>
-        After successful testing, the AI-based hospital management
-        system is deployed for use.
-    </p>
+    "<h2>SDLC for " + topic + "</h2>" +
 
-    <h3>9. Maintenance</h3>
-    <p>
-        The system is monitored and updated regularly.
-        The AI model can also be improved using new data.
-    </p>
+    "<p><b>1. Planning:</b> Plan the " + topic + " project, budget, and timeline.</p>" +
 
-    <hr>
+    "<p><b>2. Requirement Analysis:</b> Collect user requirements for the " + topic + " system.</p>" +
 
-    <h2>Conclusion</h2>
+    "<p><b>3. Design:</b> Design the user interface, database, and system architecture.</p>" +
 
-    <p>
-        SDLC helps developers build software in a systematic way.
-        When AI is involved, additional steps such as data collection,
-        data preparation and AI model training are important.
-    </p>
+    "<p><b>4. Development:</b> Develop the " + topic + " application using programming and AI tools.</p>" +
+
+    "<p><b>5. Testing:</b> Test the " + topic + " system and fix bugs.</p>" +
+
+    "<p><b>6. Deployment:</b> Deploy the " + topic + " system for users.</p>" +
+
+    "<p><b>7. Maintenance:</b> Update and maintain the " + topic + " system regularly.</p>";
+}
+</script>
 
 </body>
 </html>
