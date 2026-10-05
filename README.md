@@ -1,57 +1,57 @@
-# 🌿 SheBuilds Full Stack Development Tasks
+# SheBuilds Full Stack Development Tasks
 
-Welcome to my **SheBuilds Full Stack Development** task repository! ✨
+Welcome to my **SheBuilds Full Stack Development** task repository.
 
-This repository contains the tasks and mini-projects completed as part of the **SheBuilds Full Stack Development Program**, covering SDLC, HTML5, forms, JavaScript, ES6, and basic web development.
+This repository contains the tasks and mini-projects completed as part of the **SheBuilds Full Stack Development Program**, covering SDLC, HTML5, forms, JavaScript, ES6, React, and basic web development.
 
 ---
 
-## 📚 Modules & Projects
+## Modules & Projects
 
-### 🧩 Module 1 — SDLC
+### Module 1 — SDLC
 
 #### 1. SDLC
 
 A webpage explaining the **Software Development Life Cycle (SDLC)** and its different stages, applied to an AI-based Hospital Management System.
 
-🔗 **Live Demo:**  
+**Live Demo:**
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%201/SDLC/sdlc.html
 
 ---
 
-### 💻 Module 2 — HTML & Forms
+### Module 2 — HTML & Forms
 
 #### 2. Calendar
 
 A simple HTML-based calendar displaying dates and important occasions.
 
-🔗 **Live Demo:**  
+**Live Demo:**
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Calendar/calendar.html
 
 #### 3. Calculator
 
 A simple calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-🔗 **Live Demo:**  
+**Live Demo:**
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Calculator/calculator.html
 
 #### 4. Login Page
 
 A standalone login page with username and password fields, along with sign-in and sign-up functionality.
 
-🔗 **Live Demo:**  
+**Live Demo:**
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Login%20Page/login.html
 
 #### 5. Registration Page
 
 A registration form containing user details such as name, email, phone number, date of birth, and password.
 
-🔗 **Live Demo:**  
+**Live Demo:**
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Registration%20Page/registration.html
 
 ---
 
-### 🌼 Module 3 — JavaScript & ES6
+### Module 3 — JavaScript & ES6
 
 #### 6. Event Management System
 
@@ -59,29 +59,59 @@ A simple event management system that allows users to enter and display event de
 
 The project uses **JavaScript ES6 features** for handling event data and dynamically updating the event board.
 
-🔗 **Live Demo:**  
+**Live Demo:**
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%203/Event%20Management%20System/event_management.html
 
 #### 7. Student Application Form
 
 A student application form for collecting student details and displaying submitted information.
 
-🔗 **Live Demo:**  
+**Live Demo:**
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%203/Student%20Application%20Form/student_registration.html
 
 ---
 
-## 🛠️ Technologies Used
+### Module 4 — React
 
-- HTML5
-- CSS3
-- JavaScript
-- JavaScript ES6
-- Bootstrap
+#### 8. Task 1
+
+A React-based task developed using **Vite and JavaScript**.
+
+**Live Demo:**
+https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%204/Task1/
+
+#### 9. Task 2
+
+A React-based task developed using **Vite and JavaScript**.
+
+**Live Demo:**
+https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%204/Task2/
+
+#### 10. Task 3
+
+A React-based task developed using **Vite and JavaScript**.
+
+**Live Demo:**
+https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%204/Task3/
 
 ---
 
-## 📁 Project Structure
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* JavaScript ES6
+* Bootstrap
+* React
+* Vite
+* Git
+* GitHub
+* GitHub Pages
+
+---
+
+## Project Structure
 
 ```text
 danya_fullstack_task/
@@ -103,31 +133,46 @@ danya_fullstack_task/
 │   └── Registration Page/
 │       └── registration.html
 │
-└── Module 3/
-    ├── Event Management System/
-    │   └── event_management.html
-    │
-    └── Student Application Form/
-        └── student_registration.html
+├── Module 3/
+│   ├── Event Management System/
+│   │   └── event_management.html
+│   │
+│   └── Student Application Form/
+│       └── student_registration.html
+│
+└── Module 4/
+    ├── Task1/
+    ├── Task2/
+    └── Task3/
+```
 
+---
 
-🎯 Learning Outcomes
+## Learning Outcomes
 
 Through these tasks, I practiced:
 
-Understanding the Software Development Life Cycle
-Creating webpages using HTML5
-Building forms and handling user input
-Creating structured web pages
-Working with CSS and Bootstrap
-Using JavaScript for interactivity
-Working with JavaScript ES6 features
-Performing basic arithmetic operations using JavaScript
-Dynamically manipulating HTML elements
-Organizing multiple projects using Git and GitHub
-Deploying webpages using GitHub Pages
-🚀 Deployment
+* Understanding the Software Development Life Cycle
+* Creating webpages using HTML5
+* Building forms and handling user input
+* Creating structured web pages
+* Working with CSS and Bootstrap
+* Using JavaScript for interactivity
+* Working with JavaScript ES6 features
+* Performing basic arithmetic operations using JavaScript
+* Dynamically manipulating HTML elements
+* Building applications using React
+* Working with Vite
+* Organizing multiple projects using Git and GitHub
+* Deploying projects using GitHub Pages
 
-The projects in this repository are deployed using GitHub Pages.
+---
+
+## Deployment
+
+The projects in this repository are deployed using **GitHub Pages**.
 
 Each project can be accessed through its individual live demo link provided above.
+
+**GitHub Repository:**
+https://github.com/danyaramesh1647-lang/danya_fullstack_task
