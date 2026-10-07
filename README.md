@@ -15,6 +15,7 @@ This repository contains the tasks and mini-projects completed as part of the **
 A webpage explaining the **Software Development Life Cycle (SDLC)** and its different stages, applied to an AI-based Hospital Management System.
 
 **Live Demo:**
+
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%201/SDLC/sdlc.html
 
 ---
@@ -26,6 +27,7 @@ https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%201/SDLC/sdlc
 A simple HTML-based calendar displaying dates and important occasions.
 
 **Live Demo:**
+
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Calendar/calendar.html
 
 #### 3. Calculator
@@ -33,6 +35,7 @@ https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Calendar/
 A simple calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
 **Live Demo:**
+
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Calculator/calculator.html
 
 #### 4. Login Page
@@ -40,6 +43,7 @@ https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Calculato
 A standalone login page with username and password fields, along with sign-in and sign-up functionality.
 
 **Live Demo:**
+
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Login%20Page/login.html
 
 #### 5. Registration Page
@@ -47,6 +51,7 @@ https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Login%20P
 A registration form containing user details such as name, email, phone number, date of birth, and password.
 
 **Live Demo:**
+
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%202/Registration%20Page/registration.html
 
 ---
@@ -60,6 +65,7 @@ A simple event management system that allows users to enter and display event de
 The project uses **JavaScript ES6 features** for handling event data and dynamically updating the event board.
 
 **Live Demo:**
+
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%203/Event%20Management%20System/event_management.html
 
 #### 7. Student Application Form
@@ -67,6 +73,7 @@ https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%203/Event%20M
 A student application form for collecting student details and displaying submitted information.
 
 **Live Demo:**
+
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%203/Student%20Application%20Form/student_registration.html
 
 ---
@@ -78,6 +85,7 @@ https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%203/Student%2
 A React-based task developed using **Vite and JavaScript**.
 
 **Live Demo:**
+
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%204/Task1/
 
 #### 9. Task 2
@@ -85,6 +93,7 @@ https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%204/Task1/
 A React-based task developed using **Vite and JavaScript**.
 
 **Live Demo:**
+
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%204/Task2/
 
 #### 10. Task 3
@@ -92,22 +101,57 @@ https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%204/Task2/
 A React-based task developed using **Vite and JavaScript**.
 
 **Live Demo:**
+
 https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%204/Task3/
+
+#### 11. Task 4
+
+A React-based application developed using **Vite and JavaScript**, demonstrating React components, state management, and interactive functionality.
+
+**Live Demo:**
+
+https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%204/Task4/
+
+#### 12. Task 5 — Student Placement Dashboard
+
+A React-based **Student Placement Dashboard** developed using **Vite and JavaScript**.
+
+The application provides:
+
+- Student Login and Registration
+- Profile Management
+- Job Openings
+- Company Search and Location Filtering
+- Job Application Tracking
+- Interview Schedule
+- Notifications
+- Dashboard Application Statistics
+- Placement Application Trends
+- React Router navigation
+- Context API for authentication and application state
+- Form validation
+- Responsive user interface
+
+**Live Demo:**
+
+https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%204/Task5/
 
 ---
 
 ## Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript
-* JavaScript ES6
-* Bootstrap
-* React
-* Vite
-* Git
-* GitHub
-* GitHub Pages
+- HTML5
+- CSS3
+- JavaScript
+- JavaScript ES6
+- Bootstrap
+- React
+- React Router
+- Vite
+- Context API
+- Git
+- GitHub
+- GitHub Pages
 
 ---
 
@@ -115,6 +159,7 @@ https://danyaramesh1647-lang.github.io/danya_fullstack_task/Module%204/Task3/
 
 ```text
 danya_fullstack_task/
+
 │
 ├── Module 1/
 │   └── SDLC/
@@ -143,36 +188,6 @@ danya_fullstack_task/
 └── Module 4/
     ├── Task1/
     ├── Task2/
-    └── Task3/
-```
-
----
-
-## Learning Outcomes
-
-Through these tasks, I practiced:
-
-* Understanding the Software Development Life Cycle
-* Creating webpages using HTML5
-* Building forms and handling user input
-* Creating structured web pages
-* Working with CSS and Bootstrap
-* Using JavaScript for interactivity
-* Working with JavaScript ES6 features
-* Performing basic arithmetic operations using JavaScript
-* Dynamically manipulating HTML elements
-* Building applications using React
-* Working with Vite
-* Organizing multiple projects using Git and GitHub
-* Deploying projects using GitHub Pages
-
----
-
-## Deployment
-
-The projects in this repository are deployed using **GitHub Pages**.
-
-Each project can be accessed through its individual live demo link provided above.
-
-**GitHub Repository:**
-https://github.com/danyaramesh1647-lang/danya_fullstack_task
+    ├── Task3/
+    ├── Task4/
+    └── Task5/
